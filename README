@@ -1,0 +1,31 @@
+		DatasetGen.py
+Random Datasets Generator Code.Produces 4 csv files
+ (costumer.csv, invoice.csv, invoice_item.scv and customer_sample.csv) 
+with the described format and size
+
+To produce datasets run: 
+
+$python DatasetGen.py
+
+		Trie.py
+Data structrure used for faster indexing and searching of both customer 
+codes and invoice code 
+
+		DreamCandies.py
+Requested code. First, it creates a trie using customer_sample.csv
+code. Then, it uses this trie in irder to recognize the sampled codes
+and create the new customer.csv file.
+Then a new trie is created related to invoice codes for every invoice 
+code that corresponds to the first trie.Those line are being written 
+in the new invoice.csv file. 
+Lastly,invoice_item.csv lines are being read and every line with invoice code matching
+to the stored ones in the second trie is being written in the new invoice_item.csv
+
+To produce requested datasets run: 
+
+$python DreamCandies.py
+
+
+Developed and tested on Ubuntu 16.04 LTS
+ 
+		
