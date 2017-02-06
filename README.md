@@ -12,8 +12,8 @@ The three full extraction files, all extraction files will have the following fi
   Thousand separator should not be use in the field with FLOAT data type 
   Decimal point “.” will be used in field with FLOAT data type as decimal mark .
 
-CUSTOMER.CSV (contains approximately 500k customer) 
-<i> Columns           Data Type </i> 
+ CUSTOMER.CSV (contains approximately 500k customer) 
+ <i> Columns           Data Type </i> 
   CUSTOMER_CODE     CHAR(30) 
   FIRSTNAME         CHAR(100) 
   LASTNAME          CHAR(100)
