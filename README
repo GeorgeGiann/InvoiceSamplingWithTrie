@@ -11,7 +11,7 @@ $python DatasetGen.py
 Data structrure used for faster indexing and searching of both customer 
 codes and invoice code 
 
-		SamplingWithTries.py
+		SamplingWithTrie.py
 Requested code. First, it creates a trie using customer_sample.csv
 code. Then, it uses this trie in irder to recognize the sampled codes
 and create the new customer.csv file.
@@ -23,7 +23,7 @@ to the stored ones in the second trie is being written in the new invoice_item.c
 
 To produce requested datasets run: 
 
-$python SamplingWithTries.py
+$python SamplingWithTrie.py
 
 
 Developed and tested on Ubuntu 16.04 LTS
